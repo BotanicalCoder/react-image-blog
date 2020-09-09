@@ -1,0 +1,47 @@
+body {
+  font-family: "Oswald", sans-serif !important ;
+  box-sizing: border-box;
+  background-color: rgb(48, 41, 41) !important;
+  color: whitesmoke !important;
+}
+
+img {
+  margin-right: -2em !important;
+  margin-left: 1em !important;
+  margin-top: 1em !important;
+}
+
+label {
+  padding: 0.5em;
+}
+
+h7 {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 50% !important;
+}
+#comment {
+  height: 150px;
+  width: 300px;
+  margin-top: 1em;
+  border: 1px solid black;
+}
+
+#name {
+  border: 1px solid black;
+}
+
+#name:hover {
+  border: 3px solid rgb(146, 137, 137);
+}
+#comment:hover {
+  border: 3px solid grey;
+}
+
+ul li a {
+  display: block !important;
+  color: honeydew !important;
+  position: relative !important;
+  left: 100% !important;
+}
