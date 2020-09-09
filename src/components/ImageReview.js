@@ -16,6 +16,7 @@ const ImageReview = (props) => {
           <br />
           <textarea id="comment" placeholder="add comment" required />
           <br />
+         <a href= #comments>
           <input
             type="submit"
             value="submit"
@@ -23,23 +24,25 @@ const ImageReview = (props) => {
               props.formHandler();
             }}
           />
+         </a>
         </form>
       </div>
 
-      <div className="row ml-1">
+      <div className="row ml-1" id="comments">
         {" "}
         <h4>comments</h4> <br />
       </div>
       {comments.map((comment) => {
         return (
-          <div className="row ml-1">
+          <div className="row ml-1" >
             <p>
               {comment.body}
               <br />
               <span>delete comment </span>
-            </p>
+            
             <br />
-            <p> name of author: {comment.name} </p>
+            <span > name of author: {comment.name} </span>
+            </p>
           </div>
         );
       })}
