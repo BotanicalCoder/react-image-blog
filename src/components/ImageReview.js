@@ -16,7 +16,7 @@ const ImageReview = (props) => {
           <br />
           <textarea id="comment" placeholder="add comment" required />
           <br />
-         <a href= #comments>
+         <a href="#comments">
           <input
             type="submit"
             value="submit"
