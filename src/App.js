@@ -210,8 +210,8 @@ ethical helvetica photo booth gentrify.`,
         id: prevState.id,
       };
     });
-    textarea = "";
-    name = "";
+    textarea.value = "";
+    name.value= "";
     console.log(textarea.value);
     console.log(name.value);
     console.log(state.comments);
