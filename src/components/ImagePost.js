@@ -22,7 +22,7 @@ const ImagePost = (props) => {
       </div>
       <ImageAuthor />
       <ImageReview comment={comments} formHandler={props.formHandler} id={id} />
-      <div className="container" id="bottom">
+      <div className="container" >
         <button
           className="btn btn-dark mt-2 mb-2"
           onClick={() => props.prevHandler(id)}
